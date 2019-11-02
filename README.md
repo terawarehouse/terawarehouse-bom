@@ -76,12 +76,14 @@ Keywords: catalog and sales order management system, spring, microservice, rest 
 
 ## Repositories
 
+ * https://github.com/terawarehouse
  * https://github.com/terawarehouse/terawarehouse-catalog
  * https://github.com/terawarehouse/terawarehouse-inventory
  * https://github.com/terawarehouse/terawarehouse-sales
  * https://github.com/terawarehouse/terawarehouse-reporting
  * https://github.com/terawarehouse/terawarehouse-react
+ * https://github.com/terawarehouse/terawarehouse-gateway
  
 ## Authors
 
-* **Edward P. Legaspi** - *Java Architect* - [czetsuya](https://github.com/czetsuya)
+ * **Edward P. Legaspi** - *Java Architect* - [czetsuya](https://github.com/czetsuya)
