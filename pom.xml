@@ -21,6 +21,7 @@
 		<spring-boot-admin.version>2.1.6</spring-boot-admin.version>
 		<spring-cloud.version>Hoxton.M2</spring-cloud.version>
 		<org.mapstruct.version>1.3.1.Final</org.mapstruct.version>
+		<broodcamp.version>0.0.2-SNAPSHOT</broodcamp.version>
 	</properties>
 
 	<repositories>
@@ -66,7 +67,13 @@
 			<dependency>
 				<groupId>com.broodcamp</groupId>
 				<artifactId>broodcamp-api</artifactId>
-				<version>0.0.2-SNAPSHOT</version>
+				<version>${broodcamp.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.broodcamp</groupId>
+				<artifactId>broodcamp-dto</artifactId>
+				<version>${broodcamp.version}</version>
 			</dependency>
 
 			<dependency>
@@ -79,6 +86,16 @@
 				<artifactId>mapstruct-processor</artifactId>
 				<version>${org.mapstruct.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.springdoc</groupId>
+				<artifactId>springdoc-openapi-core</artifactId>
+				<version>1.1.49</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springdoc</groupId>
+				<artifactId>springdoc-openapi-ui</artifactId>
+				<version>1.2.6</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -89,6 +106,9 @@
 	<description>Modules
 -https://github.com/terawarehouse/terawarehouse-catalog
 -https://github.com/terawarehouse/terawarehouse-inventory
+-https://github.com/terawarehouse/terawarehouse-load-balancer
+-https://github.com/terawarehouse/terawarehouse-service-discovery
 -https://github.com/terawarehouse/terawarehouse-sales
--https://github.com/terawarehouse/terawarehouse-reporting</description>
+-https://github.com/terawarehouse/terawarehouse-reporting
+-https://github.com/terawarehouse/terawarehouse-gateway</description>
 </project>
