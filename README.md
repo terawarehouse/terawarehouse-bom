@@ -18,6 +18,7 @@ Keywords: catalog and sales order management system, spring, microservice, rest 
  * https://github.com/terawarehouse/terawarehouse-admin-server
  * https://github.com/terawarehouse/terawarehouse-config-server
  * https://github.com/terawarehouse/service-discovery
+ * https://github.com/terawarehouse/terawarehouse-load-balancer
  * https://github.com/terawarehouse/terawarehouse-catalog
  * https://github.com/terawarehouse/terawarehouse-inventory
  * https://github.com/terawarehouse/terawarehouse-sales
